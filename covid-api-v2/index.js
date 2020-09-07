@@ -1,5 +1,4 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const fs = require('fs');
@@ -9,8 +8,6 @@ const DataModel = require('./models/Data');
 const port = 4000;
 const app = express();
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
 app.use(cors());
 
 let mongo = async () => {
