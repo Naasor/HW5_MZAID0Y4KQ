@@ -132,7 +132,7 @@ img {
     }
 }
 
-@media only screen and (max-width:768px) {
+@media screen and (max-width:768px) {
     body {
         overflow-x: hidden;
     }
@@ -180,7 +180,7 @@ img {
     }
 } 
 
-@media only screen and (max-width:600px) { 
+@media screen and (max-width:600px) { 
     #logo {
         margin-left: 1.2em;
     }
@@ -225,7 +225,7 @@ img {
     }
 }
 
-@media only screen and (max-width:450px) {
+@media screen and (max-width:450px) {
     #logo {
         margin-left: 1.2em;
         height: 1.7em;
